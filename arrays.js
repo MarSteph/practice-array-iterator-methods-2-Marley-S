@@ -29,3 +29,17 @@ let highScores = scores.filter(score => score >= 80);
 // Expected Output: [85, 90, 100];
 
 console.log(highScores);
+
+// Task 4
+let favoriteFood = ["Pizza", "Chopped Cheese", "Salmon Teriyaki", "Sushi", "Fish & Chips"];
+let firstGreaterThanFourLetterFood = favoriteFood.find(food => food.length > 4);
+let firstGreaterThanFourLetterFoodIndex = favoriteFood.findIndex(food => food.length > 4);
+
+/*
+Expected Output:
+Pizza
+0
+*/
+
+console.log(firstGreaterThanFourLetterFood);
+console.log(firstGreaterThanFourLetterFoodIndex);
