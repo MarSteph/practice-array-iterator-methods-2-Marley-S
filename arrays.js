@@ -43,3 +43,12 @@ Pizza
 
 console.log(firstGreaterThanFourLetterFood);
 console.log(firstGreaterThanFourLetterFoodIndex);
+
+// Task 5
+let temperatures = [61, 66, 64, 65, 70];
+let someAboveNinety = temperatures.some(temperature => temperature > 90);
+let everyAboveFifty = temperatures.every(temperature => temperature > 50);
+
+// Expected Output: [false, true]
+
+console.log([someAboveNinety, everyAboveFifty]);
