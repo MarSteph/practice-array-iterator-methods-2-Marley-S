@@ -52,3 +52,13 @@ let everyAboveFifty = temperatures.every(temperature => temperature > 50);
 // Expected Output: [false, true]
 
 console.log([someAboveNinety, everyAboveFifty]);
+
+// Task 6
+let totalBudget = 100.00;
+let prices = [20.25, 30.00, 10.75, 5.00];
+
+let leftoverBudget = prices.reduce((total, price) => total - price, totalBudget);
+
+// Expected Output: $34
+
+console.log(`$${leftoverBudget}`);
